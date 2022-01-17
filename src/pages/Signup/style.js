@@ -1,0 +1,24 @@
+import styled from "styled-components";
+
+export const Form = styled.form`
+  max-width: 360px;
+  margin: 60px auto;
+  padding: 20px;
+
+  label {
+    display: block;
+    margin: 30px auto;
+  }
+
+  span {
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  input {
+    padding: 8px 6px;
+    font-size: 1em;
+    color: #777;
+    width: 100%;
+  }
+`;
